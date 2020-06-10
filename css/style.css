@@ -23,18 +23,67 @@ troppo allargata) */
     /* border: 3px solid red; */
 }
 
-
 /*********************************************************/
-
 .header-section {
     padding-top: 10px;
     height: 360px;
     background-color: #0c325a;
 }
 
-.header-section nav {
+nav {
+    height: 50px;
+    font-size: 14px;
+}
+
+nav img {
+    float: left;
+    height: 50px;
+}
+
+ul.left {
+    margin-left: 5px;
+    float: left;
+    line-height: 60px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+ul.right {
+    float: right;
+    line-height: 60px;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+button.log{
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+button.str,button.call-to-action {
+    background-color: #7cbb02;
+    border: none;
+}
+
+
+/* .header-section nav {
     font-size: 12px;
-    /* background-color: rgb(1, 33, 50); */
     text-transform: uppercase;
 }
 
@@ -45,7 +94,6 @@ troppo allargata) */
 }
 
 .header-section nav .left-menu {
-    /* width: 40%; */
     height: 100%;
     float: left;
     padding: 15px 5px 5px;
@@ -54,7 +102,6 @@ troppo allargata) */
 .header-section nav ul li {
     display: inline-block;
     padding: 0 5px;
-    /* padding: 15px 5px 5px; */
 }
 
 .header-section nav a {
@@ -73,7 +120,6 @@ troppo allargata) */
 
 button {
     font-size: 12px;
-    /* padding: 10px; */
     text-transform: uppercase;
     color: white;
     border-radius: 5px;
@@ -101,7 +147,7 @@ button:hover {
     background-color: #7cbb02;
     border: 1px solid #7cbb02;
     padding: 10px 15px;
-}
+} */
 
 .header-section .banner {
     height: 320px;
@@ -195,13 +241,10 @@ button:hover {
     transform: translateX(-50%);
     margin-bottom: : 15px 0;
 } */
-
 .main-section .container .upper-box .box hr {
     width: 80px;
     margin: 0 auto
 }
-
-
 
 .main-section .container .upper-box .box p {
     color: grey;
