@@ -9,3 +9,49 @@
     clear: both;
     display: table;
 }
+
+.container {
+    height: 100%;
+    width: 80%;
+    max-width: 1300px;
+    margin: 0 auto;
+    border: 3px solid red;
+}
+
+.header-section {
+    height: 400px;
+    background-color: #0c325a;
+}
+
+.header-section nav {
+    height: 75px;
+    background-color: grey;
+}
+
+.header-section .banner {
+    height: 325px;
+    background-color: lightblue;
+}
+
+.header-section .banner .title{
+    height: 100%;
+    width: 50%;
+    background-color: orange;
+
+}
+
+
+.promo-advise-section {
+    height: 100px;
+    background-color: #d3d3d3;
+}
+
+.main-section {
+    height: 600px;
+    background-color: white;
+}
+
+.footer-section {
+    height: 100px;
+    background-color: #d3d3d3;
+}
