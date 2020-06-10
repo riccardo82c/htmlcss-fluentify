@@ -10,8 +10,6 @@
     display: table;
 }
 
-
-
 /* definisco il container generico che mi occuperà solo
 una parte di tutta la larghezza (e def anche una max-width
 per impedire che su schermi grandi la sezione sia inutilmenre
@@ -25,66 +23,113 @@ troppo allargata) */
 }
 
 .header-section {
-    height: 365px;
+    height: 400px;
     background-color: #0c325a;
 }
 
 .header-section nav {
-    /* height: 75px; */
-    background-color: rgb(1, 33, 50);
+    height: 75px;
+    font-size: 10px;
+    /* background-color: rgb(1, 33, 50); */
+    text-transform: uppercase;
 }
 
-.header-section nav img{
+.header-section nav img {
     height: 40px;
     float: left;
-
-
+    margin-right: 20px;
 }
 
-.header-section nav .left-menu{
-    height: 100%;
+.header-section nav .left-menu {
     /* width: 40%; */
-    background-color: red;
-    float: left;
-    font-size: 15px;
-}
-
-.header-section nav ul li{
-    display: inline-block;
-    padding: 10px 10px;
-}
-
-.header-section nav ul li a{
-
-}
-
-.header-section nav .right-menu{
     height: 100%;
-    /* width: 30%; */
-    background-color: white;
-    float: right;
+    float: left;
+    padding: 15px 5px 5px;
 }
 
+.header-section nav ul li {
+    display: inline-block;
+    padding: 0 5px;
+    /* padding: 15px 5px 5px; */
+}
 
+.header-section nav a {
+    color: white;
+    text-decoration: none;
+}
 
+.header-section nav ul li a:hover {
+    color: orange;
+}
 
+.header-section nav .right-menu {
+    float: right;
+    padding: 3px 5px 5px;
+}
 
+button {
+    font-size: 10px;
+    /* padding: 10px; */
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+}
 
+.btn1 {
+    background-color: #0c325a;
+    border: none;
+    padding: 10px 15px;
+}
 
+.btn2 {
+    border: none;
+    background-color: #0c325a;
+    border: 1px solid white;
+    margin-right: 10px;
+    padding: 10px 25px;
+}
 
-
-
-
+.btn3 {
+    background-color: #7cbb02;
+    border: 1px solid #7cbb02;
+    padding: 10px 15px;
+}
 
 .header-section .banner {
     height: 325px;
-    background-color: lightblue;
+    background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* background-color: lightblue; */
 }
 
-.header-section .container .banner .title {
+.header-section .container .banner .title-container {
     height: 100%;
     width: 50%;
-    background-color: rgb(85, 154, 177);
+    /* background-color: rgb(85, 154, 177); */
+    position: relative;
+}
+
+.header-section .container .banner .title-container h1 {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 20px;
+
+    /* width: 50%; */
+}
+
+.header-section .container .banner .title-container .title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+.call-to-action {
+    font-size: 14px;
+    padding: 20px 20px;
 }
 
 .promo-advise-section {
