@@ -115,7 +115,6 @@ button {
     font-size: 35px;
     color: white;
     margin-bottom: 20px;
-
     /* width: 50%; */
 }
 
@@ -125,17 +124,36 @@ button {
     transform: translateY(-50%);
 }
 
-
-
 .call-to-action {
     font-size: 14px;
     padding: 20px 20px;
 }
 
 .promo-advise-section {
-    height: 100px;
+    height: 120px;
     background-color: #d3d3d3;
 }
+
+.promo-advise-section .container {
+    position: relative;
+}
+
+.promo-advise-section .container .subtitle {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.promo-advise-section .container .subtitle h2{
+    margin-bottom: 10px;
+}
+
+.promo-advise-section .container .subtitle p{
+    color: grey;
+}
+
 
 .main-section {
     height: 500px;
