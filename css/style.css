@@ -16,21 +16,24 @@ per impedire che su schermi grandi la sezione sia inutilmenre
 troppo allargata) */
 .container {
     height: 100%;
-    width: 70%;
+    width: 80%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
+    /* padding-top: 10px; */
     /* border: 3px solid red; */
 }
 
+
+/*********************************************************/
+
 .header-section {
+    padding-top: 10px;
     height: 360px;
     background-color: #0c325a;
 }
 
 .header-section nav {
-
-    font-size: 10px;
+    font-size: 12px;
     /* background-color: rgb(1, 33, 50); */
     text-transform: uppercase;
 }
@@ -69,11 +72,15 @@ troppo allargata) */
 }
 
 button {
-    font-size: 10px;
+    font-size: 12px;
     /* padding: 10px; */
     text-transform: uppercase;
     color: white;
     border-radius: 5px;
+}
+
+button:hover {
+    box-shadow: 2px 2px 2px white;
 }
 
 .btn1 {
@@ -97,7 +104,7 @@ button {
 }
 
 .header-section .banner {
-    height: 325px;
+    height: 320px;
     background-image: url("https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -147,18 +154,18 @@ button {
     transform: translate(-50%, -50%);
 }
 
-.promo-advise-section .container .subtitle h2{
+.promo-advise-section .container .subtitle h2 {
     margin-bottom: 10px;
 }
 
-.promo-advise-section .container .subtitle p{
+.promo-advise-section .container .subtitle p {
     color: grey;
 }
-
 
 .main-section {
     height: 700px;
     background-color: white;
+    padding-top: 20px;
 }
 
 .main-section .container .upper-box .box {
@@ -167,16 +174,13 @@ button {
     float: left;
     /* background-color: orange; */
     border: 1px solid white;
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
 }
 
 .main-section .container .upper-box .box img {
     height: 100px;
-
 }
-
-
 
 .main-section .container .upper-box .box h3 {
     font-size: 25px;
@@ -184,21 +188,25 @@ button {
     margin: 15px 0;
 }
 
-.main-section .container .upper-box .box hr {
+/* .main-section .container .upper-box .box hr {
     width: 80px;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     margin-bottom: : 15px 0;
+} */
+
+.main-section .container .upper-box .box hr {
+    width: 80px;
+    margin: 0 auto
 }
+
+
 
 .main-section .container .upper-box .box p {
     color: grey;
     padding: 10px;
-
-
 }
-
 
 .main-section .container .down-box .box {
     width: calc(100% / 2);
