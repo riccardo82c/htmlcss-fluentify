@@ -10,6 +10,8 @@
     display: table;
 }
 
+
+
 /* definisco il container generico che mi occuperà solo
 una parte di tutta la larghezza (e def anche una max-width
 per impedire che su schermi grandi la sezione sia inutilmenre
@@ -17,20 +19,62 @@ troppo allargata) */
 .container {
     height: 100%;
     width: 80%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 0 auto;
     border: 3px solid red;
 }
 
 .header-section {
-    height: 400px;
+    height: 365px;
     background-color: #0c325a;
 }
 
 .header-section nav {
-    height: 75px;
+    /* height: 75px; */
     background-color: rgb(1, 33, 50);
 }
+
+.header-section nav img{
+    height: 40px;
+    float: left;
+
+
+}
+
+.header-section nav .left-menu{
+    height: 100%;
+    /* width: 40%; */
+    background-color: red;
+    float: left;
+    font-size: 15px;
+}
+
+.header-section nav ul li{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.header-section nav ul li a{
+
+}
+
+.header-section nav .right-menu{
+    height: 100%;
+    /* width: 30%; */
+    background-color: white;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .header-section .banner {
     height: 325px;
